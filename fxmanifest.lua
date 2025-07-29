@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-author 'OasisGroup'
+author 'Jonirulah'
 description 'Timer for jobs/boosting/whatever'
 version '1.0.0'
 lua54 'yes'
