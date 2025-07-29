@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    display: none;
+}
+
+html {
+    top: 25%;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    margin-top: 3%;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.clock-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.3rem;
+    flex-shrink: 0; /* Prevents the icon from shrinking */
+}
+
+#timer {
+    min-width: 5ch; /* Provides a minimum width for the timer text */
+    text-align: left; /* Aligns text to the left within its container */
+}
+
+.subtext {
+    margin-top: 0.2rem;
+    font-size: 0.95rem;
+    color: white;
+}
+
+
+.subtext:empty {
+    display: none;
+}
